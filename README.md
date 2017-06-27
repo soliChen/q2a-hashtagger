@@ -23,15 +23,14 @@ I still find out that the style of content will lose and become one line, like :
 abc<br>
 def<br>
 @ admis
-
-<br>
+<br><br>
 become to :<br>
 abc def @ admis
-<br>
+<br><br>
 So sad.
 <br>
 Finally, I found out that if we use the "Insert a quote" and write "@ admis" inside , style keeps fine.
 
 Other bugs? I don't know yet :)
-<br>
+<br><br>
 Soli
