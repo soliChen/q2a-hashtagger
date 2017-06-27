@@ -171,10 +171,12 @@ class qa_hashtagger
 				 * The only thing to do this, is to override qa_other_to_q_html_fields() function
 				 * but it's too bad idea because it is necessary to copy the entire function
 				 */
+				
+				//add \r\n to change row
 				qa_send_notification($userid, null, null, $subject, $body, array(
 					'^author_name' => self::$notification['auhtor_name'],
 					'^question_title' => self::$notification['question_title'],
-					'^mentioned_url' => $mentioned_url,
+					'^mentioned_url' => "\r\n".$mentioned_url,
 				));
 			}
 		}
