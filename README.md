@@ -19,6 +19,7 @@ We would like to add the space ("\ ") like this:
 It works, one thing:
 <br>
 I still find out that the style of content will lose and become one line, like :
+<br>
 abc
 def
 @ admis
