@@ -20,18 +20,18 @@ It works, one thing:
 <br>
 I still find out that the style of content will lose and become one line, like :
 <br>
-abc
-def
+abc<br>
+def<br>
 @ admis
 
 <br>
-become to :
+become to :<br>
 abc def @ admis
-
+<br>
 So sad.
 <br>
 Finally, I found out that if we use the "Insert a quote" and write "@ admis" inside , style keeps fine.
 
 Other bugs? I don't know yet :)
-
+<br>
 Soli
