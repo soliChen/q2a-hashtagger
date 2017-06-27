@@ -17,19 +17,19 @@ We would like to add the space ("\ ") like this:
 
 <br>
 It works, one thing:
-<br>
+<br><br>
 I still find out that the style of content will lose and become one line, like :
 <br><font color='red'>
 abc<br>
 def<br>
-@ admis</font>
+@ admis
 <br><br>
 become to :
-<br><font color='red'>
+<br><br><font color='red'>
 abc def @ admis</font>
 <br><br>
 So sad.
-<br>
+<br><br>
 But, after testing , I found out that if we use the "Insert a quote" and write "@ admis" inside , style keeps fine.
 
 Other bugs? I don't know yet :)
