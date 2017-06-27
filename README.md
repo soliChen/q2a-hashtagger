@@ -15,19 +15,20 @@ We would like to add the space ("\ ") like this:
 
     $row['content'] = $this->preg_call('%@(?P<name>[\w\-\ ]+)%u', 'build_user_link', $row['content']);
 
+<br>
 It works, one thing:
-
-
+<br>
 I still find out that the style of content will lose and become one line, like :
 abc
 def
 @ admis
 
+<br>
 become to :
 abc def @ admis
 
 So sad.
-
+<br>
 Finally, I found out that if we use the "Insert a quote" and write "@ admis" inside , style keeps fine.
 
 Other bugs? I don't know yet :)
