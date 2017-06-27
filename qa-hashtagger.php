@@ -373,12 +373,12 @@ class qa_hashtagger
 			$row['content'] = $this->preg_call('%(<a.*?</a>)%i', 'hide_html_links', $row['content']);
 		}
 
-		// Convert hashtags , add \s to convert username with space
+		// Convert hashtags , add "\ " to convert username with space
 		if ($convert_hashtags) {
 			$row['content'] = $this->preg_call('%#(?P<word>[\w\-\ ]+)%u', 'build_tag_link', $row['content']);
 		}
 
-		// Convert usernames , add \s to convert username with space
+		// Convert usernames , add "\ " to convert username with space
 		if ($convert_usernames) {
 			$row['content'] = $this->preg_call('%@(?P<name>[\w\-\ ]+)%u', 'build_user_link', $row['content']);
 		}
