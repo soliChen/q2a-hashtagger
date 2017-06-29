@@ -25,7 +25,7 @@ def<br>
 @solidChen
 <br><br>
 become to : abc def @solidChen
-
+<br><br>
 But, after testing , I found out that if we use the "Insert a quote" (on Q2A's editor,in Chinese is "引用段落") and write "@solidChen" inside , style keeps fine.
 
 Other bugs? I don't know yet :)
