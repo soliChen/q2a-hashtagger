@@ -18,19 +18,15 @@ We would like to add the space ("\ ") like this:
 <br>
 It works, one thing:
 <br><br>
-I still find out that the style of content will lose and become one line, like :
-<br><font color='red'>
+I find out that the style of content will lose and become one line, like :
+<br>
 abc<br>
 def<br>
-@ admis
+@solidChen
 <br><br>
-become to :
-<br><br><font color='red'>
-abc def @ admis</font>
-<br><br>
-So sad.
-<br><br>
-But, after testing , I found out that if we use the "Insert a quote" (on Q2A's editor,in Chinese is "引用段落") and write "@ admis" inside , style keeps fine.
+become to : abc def @solidChen
+
+But, after testing , I found out that if we use the "Insert a quote" (on Q2A's editor,in Chinese is "引用段落") and write "@solidChen" inside , style keeps fine.
 
 Other bugs? I don't know yet :)
 <br><br>
