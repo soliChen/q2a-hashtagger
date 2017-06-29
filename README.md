@@ -30,4 +30,4 @@ But, after testing , I found out that if we use the "Insert a quote" (on Q2A's e
 
 Other bugs? I don't know yet :)
 <br><br>
-Soli
+SolidChen
